@@ -2,6 +2,8 @@
 
 ## Summary:
 
+(Update: I got it to work with intake. See below. Correct AWS S3 config TBD.)
+
 The goal is to test providing access to large model outputs via S3 and Kurchunk. Eventually we hope the data will be hosted as part of NODD so the access will be unrestricted for all users. However, we don't know the access time will be good enough for use by CEFI scientists and the data portal.
 
 To test this we want to make a sample available to a variety of users (currently all within NOAA).
