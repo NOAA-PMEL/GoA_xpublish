@@ -1,0 +1,37 @@
+sources:
+
+  Salt GoA from netCDF:
+    driver: intake_xarray.xzarr.ZarrSource
+    description: 'Gulf of Alaska Kerchunked virtual dataset'
+    metadata:
+      tags:
+      - model
+      url: https://www.fisheries.noaa.gov/topic/climate-change/climate,-ecosystems,-and-fisheries
+    args:
+      consolidated: False
+      urlpath: "reference://"
+      storage_options:
+        fo: 's3://noaa3100-oar-pmel-dev-cefi/ne_pacific_10km/json/combined.json'
+        remote_options:
+          anon: true
+        remote_protocol: s3
+        target_options:
+          anon: true
+          
+  Grid GoA from netCDF:
+    driver: intake_xarray.xzarr.ZarrSource
+    description: 'Gulf of Alaska Kerchunked virtual dataset, grid file'
+    metadata:
+      tags:
+      - model
+      url: https://www.fisheries.noaa.gov/topic/climate-change/climate,-ecosystems,-and-fisheries
+    args:
+      consolidated: False
+      urlpath: "reference://"
+      storage_options:
+        fo: 's3://noaa3100-oar-pmel-dev-cefi/ne_pacific_10km/json/roms_grd_nep.json'
+        remote_options:
+          anon: true
+        remote_protocol: s3
+        target_options:
+          anon: true
