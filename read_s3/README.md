@@ -20,5 +20,6 @@ NoCredentialsError: Unable to locate credentials
 
 After reading through a lot of xarray bug reports, it's clear that it is difficult to get the right options to the right place to open a xarray data set from X3. The recoomentation is to use a tool like intake to specify the options and have it handle the negotiations with the storage system. I have done that and I can successfully read the files as a Dask backed xarray dataset.
 
-[Here is the intake catalog which defines the data and the underlying grid](catalog.yml)
+[Here is the intake catalog which defines the data and the underlying grid](intake_catalog.yml)
+
 [Here is the notebook that reads and plots the data.](nb.ipynb)
