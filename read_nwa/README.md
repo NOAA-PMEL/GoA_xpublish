@@ -7,4 +7,4 @@ This is the [intake catalog](nwa_catalog.yml).
 Reading the file is done by passing the intake catalog to xarray and returning a Dask data set. From there you can access data in the file using xarray, slicing via .sel and so on.
 
 Here is an example [notebook](read_mom6_nea_thetao_intake.ipynb) that makes a plot of a particular time at a particular level which I selected at random.
-Here is another [example notebook]() using the same intake catalog, but plotting SST.
+Here is another [example notebook](read_mom6_nwa_tos.ipynb) using the same intake catalog, but plotting SST.
