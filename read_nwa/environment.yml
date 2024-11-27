@@ -1,0 +1,19 @@
+name: nwa
+channels:
+  - conda-forge
+dependencies:
+  - xarray
+  - cf_xarray
+  - cartopy
+  - fsspec
+  - s3fs
+  - jupyterlab
+  - ca-certificates
+  - certifi
+  - openssl
+  - zarr
+  - kerchunk
+  - dask
+  - intake
+  - intake-xarray
+  - netcdf4
