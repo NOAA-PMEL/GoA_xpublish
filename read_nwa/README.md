@@ -10,4 +10,4 @@ There is a JSON Kerchunk index which aggregates this collection into a single in
 
 [Example reading and plotting SST.](read_nwa_seasonal_reforecast_monthly_regird_s3.ipynb)
 
-This directory contains 205 files of seasonal (March, June, September and December) which you can access indivdually if you'd like.
+This directory contains 205 files of seasonal (March, June, September and December) which you can access indivdually if you'd like by downloading the appropriate .json index and accessing it as we did the combined file in the example notebook.
